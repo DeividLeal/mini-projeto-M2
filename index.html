@@ -1,18 +1,75 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="criar uma página de cadastro  onde o site deve permitir cadastrar, listar os cadastrados, editar um cadastro e excluir um cadastro"> 
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <meta name="description"
+        content="criar uma página de cadastro  onde o site deve permitir cadastrar, listar os cadastrados, editar um cadastro e excluir um cadastro">
+    <link rel="shortcut icon" href="./assets/images/massagem.webp" type="image/x-icon">
     <link rel="stylesheet" href="./css/variables.css">
     <link rel="stylesheet" href="./css/global.css">
     <link rel="stylesheet" href="./css/layout.css">
     <link rel="stylesheet" href="./css/components.css">
-    <title>M2</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap">
+    <title>Agendamento de Sessão</title>
 </head>
+
 <body>
 
-    <script src="./js/main.js"></script>
+  <!-- Menu Superior -->
+  <header class="header">
+    <h1 class="logo">Massage</h1>
+    <nav class="nav">
+      <a href="#">Agendar</a>
+      <a href="#">Consultas Agendadas</a>
+    </nav>
+  </header>
+  
+  <!-- Seção de Agendamento Principal -->
+  <section class="main-booking">
+    <div class="booking-card">
+      <h2>Agendar Sessão</h2>
+      <form id="appointmentForm">
+        <label class="visuallyLabel" for="clientName">Nome:</label>
+        <input type="text" id="clientName" placeholder="Digite seu nome" required>
+
+        <label class="visuallyLabel" for="clientPhone">Telefone:</label>
+        <input type="tel" id="clientPhone" placeholder="Digite seu telefone" required>
+
+        <label for="appointmentDate">Data da Consulta:</label>
+        <input type="date" id="appointmentDate" required>
+        
+        <label for="appointmentTime">Hora da Consulta:</label>
+        <input type="time" id="appointmentTime" required>
+        
+        <label for="massageType">Tipo de Massagem: <select id="massageType" required>
+            <option value="relaxing">Relaxante</option>
+            <option value="therapeutic">Terapêutica</option>
+            <option value="sports">Esportiva</option>
+            <option value="shiatsu">Shiatsu</option>
+        </select></label>
+        
+        <button type="submit">Agendar Consulta</button>
+    </form>
+</div>
+    <div class="queryContainer">
+        <h2>Consultas Agendadas</h2>
+        <ul id="appointmentList" class="customerList"></ul>
+    </div> 
+  </section>
+
+  <!-- Informações Adicionais e Serviços -->
+  <section class="info-services">
+    <div class="service-card">
+    <p>Massagem promove o relaxamento</p>
+    </div>
+    <div class="service-card">
+    <p>Aliviar o estresse e a tensão muscular</p>
+    </div>
+  </section>
+
+     <script src="./js/main.js"></script>
 </body>
+
 </html>

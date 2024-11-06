@@ -41,7 +41,7 @@ Utilize os formulários na página para cadastrar novas informações, listar, e
 
 ## 📷 Capturas de Tela
 ![Captura de tela 2024-11-05 233006](https://github.com/user-attachments/assets/9ae266be-6790-46f6-898c-a50c6671a1a5)
-![iPhone-13-PRO-127 0 0 1](https://github.com/user-attachments/assets/794b27e2-5f59-43fb-921e-2cf1f159ac10)
-![iPad-PRO-11-127 0 0 1](https://github.com/user-attachments/assets/050ade8c-588c-46d5-b83b-72476f8790cd)
+![iPhone-13-PRO-127 0 0 1](https://github.com/user-attachments/assets/794b27e2-5f59-43fb-921e-2cf1f159ac10)![iPad-PRO-11-127 0 0 1](https://github.com/user-attachments/assets/050ade8c-588c-46d5-b83b-72476f8790cd)
+
 
 

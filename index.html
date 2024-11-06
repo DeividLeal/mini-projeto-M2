@@ -16,18 +16,18 @@
 </head>
 
 <body>
-
+   
   <!-- Menu Superior -->
-  <header class="header">
+  <header class="main-header">
     <h1 class="logo">Massage</h1>
     <nav class="nav">
-      <a href="#">Agendar</a>
-      <a href="#">Consultas Agendadas</a>
+      <a  href="#main-Section">Agendar</a>
+      <a class="nav-schedule" href="#">Consultar Agendamento <span class="nav-info">(EM BREVE)</span></a>
     </nav>
   </header>
   
   <!-- Seção de Agendamento Principal -->
-  <section class="main-booking">
+  <section class="main-booking" id="main-Section">
     <div class="booking-card">
       <h2>Agendar Sessão</h2>
       <form id="appointmentForm">
@@ -37,11 +37,13 @@
         <label class="visuallyLabel" for="clientPhone">Telefone:</label>
         <input type="tel" id="clientPhone" placeholder="Digite seu telefone" required>
 
-        <label for="appointmentDate">Data da Consulta:</label>
+        <label for="appointmentDate">Data da Sessão:</label>
         <input type="date" id="appointmentDate" required>
         
-        <label for="appointmentTime">Hora da Consulta:</label>
-        <input type="time" id="appointmentTime" required>
+        <label for="appointmentTime">Hora da Sessão:</label>
+        <input list="horariosDatalist" id="appointmentTime" required>
+        <datalist id="horariosDatalist">
+        </datalist>
         
         <label for="massageType">Tipo de Massagem: <select id="massageType" required>
             <option value="relaxing">Relaxante</option>
@@ -50,7 +52,7 @@
             <option value="shiatsu">Shiatsu</option>
         </select></label>
         
-        <button type="submit">Agendar Consulta</button>
+        <button class="buttonSubmit" type="submit">Agendar Sessão</button>
     </form>
 </div>
     <div class="queryContainer">
@@ -61,11 +63,11 @@
 
   <!-- Informações Adicionais e Serviços -->
   <section class="info-services">
-    <div class="service-card">
-    <p>Massagem promove o relaxamento</p>
+    <div class="service-card relax">
+      <p>Massagem promove o relaxamento</p>
     </div>
-    <div class="service-card">
-    <p>Aliviar o estresse e a tensão muscular</p>
+    <div class="service-card stress-relief">
+      <p>Aliviar o estresse e a tensão muscular</p>
     </div>
   </section>
 

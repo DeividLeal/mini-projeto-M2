@@ -1,0 +1,16 @@
+:root {
+    /* colors */
+    --primary-color: #29292B;
+    --secondary-color: #6200ee;
+    --tertiary-color: #9d7e7e;
+    --color-reserve: #ddd;
+    --delete-color: #b10628;
+    --text-color: #4a4a4a;
+    --background-color: #f5f3f1;
+    --background-color-secon: #f9f9f9;
+    --card-background-color: #c2ddcb;
+    --button-background-color: #29292B;
+
+    /* fonts */
+    --base-font-family: 'Montserrat', sans-serif;
+}

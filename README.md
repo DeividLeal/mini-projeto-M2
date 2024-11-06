@@ -35,10 +35,8 @@ Utilize os formulários na página para cadastrar novas informações, listar, e
 
 ## ✨ Funcionalidades Futuras (Possíveis Melhorias)
 
-- Implementação de armazenamento local (LocalStorage) para salvar dados após recarregar a página.
 - Adicionar filtros de pesquisa para facilitar a busca de registros específicos.
 - Melhorar a responsividade e acessibilidade do design.
+- Criar uma nova aba de navegação para consultar agendamentos.
 
 ## 📷 Capturas de Tela
-
-Adicione aqui algumas imagens da interface do projeto, como a tela de cadastro e a listagem de registros.

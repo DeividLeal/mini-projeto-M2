@@ -1,0 +1,74 @@
+/* Estilo do seletor de tipo de massagem */
+#massageType {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid var(--color-reserve);
+    border-radius: 5px;
+    background-color: var(--background-color-secon);
+    font-size: 16px;
+    color: var(--text-color);
+    margin-bottom: 15px;
+    transition: border-color 0.3s ease;
+}
+
+#massageType:focus {
+    border-color: var(--secondary-color);
+    outline: none;
+}
+
+.booking-card form input {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid var(--color-reserve);
+    border-radius: 8px;
+}
+
+.booking-card form input:focus, .booking-card form input:hover, #massageType:focus, #massageType:hover {
+    border-color: var(--secondary-color);
+    outline: none;
+}
+
+.buttonSubmit {
+    padding: 10px 20px;
+    background-color: var(--primary-color);
+    color: var(--background-color-secon);
+    border: none;
+    border-radius: 8px;
+    margin-top: 20px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.booking-card form button:hover {
+    background-color: #c39898;
+}
+
+.appointment-actions button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.buttonEdit {
+    color: var(--secondary-color);
+    background: transparent;
+    cursor: pointer;
+}
+
+.buttonDelete {
+    color: var(--delete-color);
+    background: transparent;
+    cursor: pointer;
+}
+
+.buttonDelete:hover {
+    background-color: #ff1744;
+    color: var(--background-color-secon);
+}
+
+.buttonEdit:hover {
+    background-color: #3700b3;
+    color: var(--background-color-secon);
+}
